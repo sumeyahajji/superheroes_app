@@ -15,11 +15,11 @@ Power.create(name: "Pyrokinesis", description: "Allows the user to control and m
 
 #hero
 
-Hero.create(name: "Clark Kent", super_name: "Superman")
-Hero.create(name: "Bruce Wayne", super_name: "Batman")
-Hero.create(name: "Diana Prince", super_name: "Wonder Woman")
-Hero.create(name: "Peter Parker", super_name: "Spider-Man")
-Hero.create(name: "Tony Stark", super_name: "Iron Man")
+Hero.create(name: "Clark Kent", supername: "Superman")
+Hero.create(name: "Bruce Wayne", supername: "Batman")
+Hero.create(name: "Diana Prince", supername: "Wonder Woman")
+Hero.create(name: "Peter Parker", supername: "Spider-Man")
+Hero.create(name: "Tony Stark", supername: "Iron Man")
 
 
 

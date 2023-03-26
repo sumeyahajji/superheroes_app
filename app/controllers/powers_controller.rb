@@ -1,21 +1,17 @@
 class PowersController < ApplicationController
-     
-    def index
+     def index
         powers = Power.all
         render json: powers 
     end
-     
-    def show
+     def show
         power = Power.find(params[:id])
         if power
         render json: power
         else
             render json:{error: "Power not found"}, status: :not_found
-    end
-    
-    
-    
-    def update
+        end
+        end
+     def update
         power = Power.find(params[:id])
         if power
             power.update(power_params)
