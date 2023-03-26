@@ -5,3 +5,12 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+
+
+
+HeroPower.create(hero_id: 1, power_id: 1, strength: 'strong')
+HeroPower.create(hero_id: 2, power_id: 2, strength: 'average')
+HeroPower.create(hero_id: 3, power_id: 3, strength: 'strong')
+HeroPower.create(hero_id: 4, power_id: 4, strength: 'weak')
+HeroPower.create(hero_id: 5, power_id: 5, strength: 'strong')
