@@ -1,7 +1,7 @@
 class PowersController < ApplicationController
      def index
-        powers = Power.all
-        render json: powers 
+        powers = Power.all.to_json(except: [:created_at, :updated_at])
+        render json: powers
     end
      def show
         power = Power.find(params[:id])

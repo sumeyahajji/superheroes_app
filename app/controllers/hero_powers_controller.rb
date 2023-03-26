@@ -1,6 +1,6 @@
 class HeroPowersController < ApplicationController
       def index
-        hero_power = HeroPower.all
+        hero_power = HeroPower.all.to_json(except: [:created_at, :updated_at])
         render json: hero_power
     
       end

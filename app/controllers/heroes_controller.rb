@@ -1,6 +1,6 @@
 class HeroesController < ApplicationController
     def index
-        heroes = Hero.all
+        heroes = Hero.all.to_json(except: [:created_at, :updated_at])
         render json: heroes
     end
     def show
