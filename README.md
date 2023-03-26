@@ -11,7 +11,7 @@ We have three models: `hero` ,   `power`, and `hero_power`.
 we have three controllers as well
  ### installation
   To get started, clone the repository and navigate to the project directory:
-  (`https://github.com/sumeyahajji/superheroes_app`)
+  (https://github.com/sumeyahajji/superheroes_app)
 
   
 
